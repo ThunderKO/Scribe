@@ -12,6 +12,8 @@
 		A1642C951EBDBE0600DF993D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1642C931EBDBE0600DF993D /* Main.storyboard */; };
 		A1642C971EBDBE0600DF993D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1642C961EBDBE0600DF993D /* Assets.xcassets */; };
 		A1642C9A1EBDBE0600DF993D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1642C981EBDBE0600DF993D /* LaunchScreen.storyboard */; };
+		A1642CA51EBDC0C200DF993D /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1642CA41EBDC0C200DF993D /* CircleButton.swift */; };
+		A1642CA71EBDC3F200DF993D /* test.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A1642CA61EBDC3F200DF993D /* test.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A1642C961EBDBE0600DF993D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1642C991EBDBE0600DF993D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1642C9B1EBDBE0600DF993D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1642CA41EBDC0C200DF993D /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		A1642CA61EBDC3F200DF993D /* test.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,48 @@
 		A1642C8E1EBDBE0600DF993D /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				A1642CA81EBDC3FD00DF993D /* Resources */,
+				A1642CA11EBDC07500DF993D /* Model */,
+				A1642CA21EBDC08100DF993D /* View */,
+				A1642CA31EBDC08500DF993D /* Controller */,
 				A1642C8F1EBDBE0600DF993D /* AppDelegate.swift */,
-				A1642C911EBDBE0600DF993D /* ViewController.swift */,
 				A1642C931EBDBE0600DF993D /* Main.storyboard */,
 				A1642C961EBDBE0600DF993D /* Assets.xcassets */,
 				A1642C981EBDBE0600DF993D /* LaunchScreen.storyboard */,
 				A1642C9B1EBDBE0600DF993D /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		A1642CA11EBDC07500DF993D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A1642CA21EBDC08100DF993D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1642CA41EBDC0C200DF993D /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A1642CA31EBDC08500DF993D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1642C911EBDBE0600DF993D /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A1642CA81EBDC3FD00DF993D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1642CA61EBDC3F200DF993D /* test.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +134,7 @@
 				TargetAttributes = {
 					A1642C8B1EBDBE0600DF993D = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 946ZM2ST6E;
+						DevelopmentTeam = XC93Z57WW3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1642CA71EBDC3F200DF993D /* test.m4a in Resources */,
 				A1642C9A1EBDBE0600DF993D /* LaunchScreen.storyboard in Resources */,
 				A1642C971EBDBE0600DF993D /* Assets.xcassets in Resources */,
 				A1642C951EBDBE0600DF993D /* Main.storyboard in Resources */,
@@ -137,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1642CA51EBDC0C200DF993D /* CircleButton.swift in Sources */,
 				A1642C921EBDBE0600DF993D /* ViewController.swift in Sources */,
 				A1642C901EBDBE0600DF993D /* AppDelegate.swift in Sources */,
 			);
@@ -263,7 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 946ZM2ST6E;
+				DEVELOPMENT_TEAM = XC93Z57WW3;
 				INFOPLIST_FILE = Scribe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThunderKo.Scribe;
@@ -276,7 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 946ZM2ST6E;
+				DEVELOPMENT_TEAM = XC93Z57WW3;
 				INFOPLIST_FILE = Scribe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ThunderKo.Scribe;
